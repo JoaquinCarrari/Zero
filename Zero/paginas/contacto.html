@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icons/Free_Sample_By_Wix.jpeg" type="image/x.icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Zero-Contacto</title>
+</head>
+<body id="fondoformulario">
+    <nav>
+        <a href="../index.html">
+            <img src="../assets/icons/Free_Sample_By_Wix.jpeg" alt="logo-zero" width="80px">
+        </a>
+        <ul>
+            <li class="navbar"><a href="../index.html" class="font-textos">INICIO</a></li>
+            <li class="navbar"><a href="./hombre.html" class="font-textos">HOMBRE</a></li>
+            <li class="navbar"><a href="./mujer.html" class="font-textos">MUJER</a></li>
+            <li class="navbar"><a href="./liquidacion.html" class="font-textos">LIQUIDACION</a></li>
+            <li class="navbar"><a href="#" class="font-textos">CONTACTO</a></li>
+        </ul>
+    </nav>
+<form action="procesador.php" name="contacto" method="post" id="formulario">
+    <fieldset>
+        <legend>Comunicate con nosotros!</legend>
+        <article id="articleformulario">
+        <br>
+            <label class="interior-formulario">Nombre
+                <br>
+                <input type="text" name="nombre" required class="interior-formulario"> 
+            </label>
+        <br>
+            <label class="interior-formulario">Apellido
+                <br>
+                <input type="text" name="apellido" required class="interior-formulario">
+            </label>
+        <br>
+            <label class="interior-formulario">Email
+                <br>
+                <input type="text" name="email" required class="interior-formulario">
+        <br>
+            </label>
+        <label for="sexo" class="interior-formulario">Mujer</label>
+        <input type="radio" name="sexo" value="mujer" >
+        <label for="sexo" class="interior-formulario">Hombre</label>
+        <input type= "radio" name="sexo" value="hombre" >
+        <label for="sexo" class="interior-formulario">Otro</label>
+        <input type="radio" name="sexo" value="otro">
+        <h4 class="interior-formulario">Comentanos tu problema o dejanos tu opinion</h4>
+        <textarea name="comentario" cols="40" rows="15" class="interior-formulario"></textarea>
+        <br>
+            <button class="boton" type="submit">Enviar</button>
+            <button class="boton" type="reset">Borrar</button>
+        </article>
+    </fieldset>
+</form>
+    <footer>
+        <article>
+        <h4>Seguinos en nuestras redes para no perderte de nada!</h4>
+        <h6>By Joaquin Carrari</h6> 
+        </article>
+        <article class="icons-redes">
+            <img src="../assets/icons/instagram.webp" alt="instagram" class="bordesredondeados" width="40px">
+            <img src="../assets/icons/facebook.png" alt="facebook" class="bordesredondeados" width="40px">
+            <img src="../assets/icons/twitter.png" alt="twitter" class="bordesredondeados" width="40px">
+        </article>
+    </footer>
+</body>
+</html>
