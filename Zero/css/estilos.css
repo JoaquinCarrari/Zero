@@ -125,6 +125,11 @@ h3{
     border-radius: 10px;
     border: 2px solid #3bcaff;
     color: #3bcaff;
+    transition: all;
+}
+.boton:hover{
+    background-color: #3bcaff;
+    color: #ffffff;
 }
 .textos-boton{
     text-decoration: none;
